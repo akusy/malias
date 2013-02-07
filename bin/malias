@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require 'bundler'
+require 'cli'
+
+Malias::Cli.start
