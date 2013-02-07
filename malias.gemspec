@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Malias::VERSION
   gem.authors       = ["meager"]
   gem.email         = ["priorytet26@wp.pl"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Simply create Ubuntu alias}
+  gem.summary       = %q{Create alias in your ubuntu alias file}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
