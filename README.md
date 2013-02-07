@@ -1,6 +1,6 @@
 # Malias
 
-TODO: Write a gem description
+Simply create ubuntu alias.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+thor malias:make -f "path to your alias file"
 
 ## Contributing
 
