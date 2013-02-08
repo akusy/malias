@@ -1,6 +1,6 @@
 # Malias
 
-Simply create ubuntu alias.
+Simply create ubuntu alias. Add your alias to .bashrc, .bash_profile or specified files.
 
 ## Installation
 
@@ -18,7 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-thor malias:make -f "path to your alias file"
+malias make ALIAS TARGET
+
+OPTIONS:
+-f "path to your alias file"
 
 ## Contributing
 

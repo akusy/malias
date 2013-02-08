@@ -1,10 +1,12 @@
 require "malias/version"
+require 'thor'
 
 module Malias
   class Cli < Thor
     include Thor::Actions
 
-    desc "make", "create alias"
+    desc "make ALIAS TARGET OPTION: -f \"filename\"", "create alias"
+   
     method_option :file, :aliases => "-f"
 
     def make (name, path)

@@ -2,10 +2,12 @@ PATH
   remote: .
   specs:
     malias (0.0.1)
+      thor
 
 GEM
   remote: https://rubygems.org/
   specs:
+    thor (0.16.0)
 
 PLATFORMS
   ruby
